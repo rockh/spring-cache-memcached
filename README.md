@@ -1,2 +1,4 @@
-spring-cache-memcachd
-=====================
+spring-cache-memcached
+======================
+
+
