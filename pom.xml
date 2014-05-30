@@ -27,8 +27,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/rockh/spring-cache-memcached</url>
-        <connection>scm:git:https://github.com/rockh/spring-cache-memcached.git</connection>
+        <url>git@github.com:rockh/spring-cache-memcached.git</url>
+        <connection>scm:git:git@github.com:rockh/spring-cache-memcached.git</connection>
+        <developerConnection>scm:git:git@github.com:rockh/spring-cache-memcached.git</developerConnection>
     </scm>
 
     <developers>
