@@ -11,7 +11,7 @@
     <groupId>com.github.rockh</groupId>
     <artifactId>spring-cache-memcached</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>spring-cache-memcached</name>
     <description>Integrating memcached with spring-cache</description>
