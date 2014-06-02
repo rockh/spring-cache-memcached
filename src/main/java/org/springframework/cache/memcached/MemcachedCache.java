@@ -39,7 +39,8 @@ public class MemcachedCache implements Cache {
             // If memcached server is unavailable then just return null.
             // Ideally, the actually function would be executing without caching mechanism.
             // However, do check the memcached server if the warning occurred.
-            LOG.warn("Memcached server is unavailable");
+            LOG.warn("Did not found any available Memcached server");
+            client.shutdown();
             return null;
         }
 

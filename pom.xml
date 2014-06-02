@@ -14,26 +14,26 @@
     <version>1.0.1-SNAPSHOT</version>
 
     <name>spring-cache-memcached</name>
-    <description>Integrating memcached with spring-cache</description>
+    <description>Integrating memcached client with spring-cache</description>
     <url>https://github.com/rockh/spring-cache-memcached</url>
 
     <licenses>
         <license>
-            <name>MIT License</name>
-            <url>http://opensource.org/licenses/MIT</url>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
         </license>
     </licenses>
 
     <scm>
-        <url>git@github.com:rockh/spring-cache-memcached.git</url>
+        <url>https://github.com/rockh/spring-cache-memcached</url>
         <connection>scm:git:git@github.com:rockh/spring-cache-memcached.git</connection>
-        <developerConnection>scm:git:git@github.com:rockh/spring-cache-memcached.git</developerConnection>
     </scm>
 
     <developers>
         <developer>
-            <id>rockh</id>
-            <name>Rock</name>
+            <id>com.github.rockh</id>
+            <name>The Spring-cache-memcached Contributors</name>
         </developer>
     </developers>
 
@@ -54,43 +54,5 @@
             <version>${spymemcached.version}</version>
         </dependency>
     </dependencies>
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>nexus-releases</id>
-            <url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.3.2</version>
-                <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-gpg-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>sign-artifacts</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>sign</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

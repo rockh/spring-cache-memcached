@@ -66,7 +66,7 @@ public class MemcachedCacheManager extends AbstractCacheManager {
     }
 
     public void shutdown() {
-        // TODO
+        client.shutdown();
     }
 
     private void checkState() {
