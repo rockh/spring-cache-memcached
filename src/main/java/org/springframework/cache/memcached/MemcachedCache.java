@@ -13,7 +13,7 @@ public class MemcachedCache implements Cache {
 
     private String name;
     private MemcachedClient client;
-    private int expiry = 3600;
+    private int expiry = 0;
 
     public MemcachedCache() {}
 
